@@ -1,5 +1,5 @@
 {
-  "name": "angular-templatecache",
+  "name": "templatecache",
   "version": "0.1.0",
   "description": "angular templates to $templateCache",
   "scripts": {},
