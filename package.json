@@ -17,12 +17,12 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/appfeel/ng-templates.git"
+        "url": "https://github.com/appfeel/templatecache.git"
     },
     "bugs": {
-        "url": "https://github.com/appfeel/ng-templates/issues"
+        "url": "https://github.com/appfeel/templatecache/issues"
     },
-    "homepage": "https://github.com/appfeel/ng-templates#readme",
+    "homepage": "https://github.com/appfeel/templatecache#readme",
     "dependencies": {
         "glob": "^7.1.1",
         "html-minifier": "^3.1.0",

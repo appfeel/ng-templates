@@ -1,10 +1,10 @@
 # Template cache for angular apps
 
-[![License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://npmjs.org/package/path-reducer)
-[![NPM version](http://img.shields.io/npm/v/path-reducer.svg?style=flat)](https://npmjs.org/package/path-reducer)
-[![Downloads](http://img.shields.io/npm/dm/path-reducer.svg?style=flat)](https://npmjs.org/package/path-reducer)
-[![Build Status](http://img.shields.io/travis/appfeel/path-reducer.svg?style=flat)](https://travis-ci.org/appfeel/path-reducer)
-[![dependency status](https://img.shields.io/david/appfeel/path-reducer.svg?style=flat)](https://david-dm.org/appfeel/path-reducer)
+[![License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://npmjs.org/package/templatecache)
+[![NPM version](http://img.shields.io/npm/v/templatecache.svg?style=flat)](https://npmjs.org/package/templatecache)
+[![Downloads](http://img.shields.io/npm/dm/templatecache.svg?style=flat)](https://npmjs.org/package/templatecache)
+[![Build Status](http://img.shields.io/travis/appfeel/templatecache.svg?style=flat)](https://travis-ci.org/appfeel/templatecache)
+[![dependency status](https://img.shields.io/david/appfeel/templatecache.svg?style=flat)](https://david-dm.org/appfeel/templatecache)
 
 Translates Angular html template files to a unique compressed javascript file that uses `$templateCache` directive.
 
