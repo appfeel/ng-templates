@@ -6,6 +6,7 @@ npm-debug.log
 # ignore build and dist for now
 /build
 /dist
+/coverage
 
 **/logs
 **/tmp
