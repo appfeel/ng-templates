@@ -81,8 +81,8 @@ The name of the module that will be created.
 When `true`, the module will be created as standalone, otherwise, as a dependency of moduleName.
 In example, if modulename is `myTemplates`:
 
-- `isStandalone === false` will create `angular.module("myTemplates").run(function($templateCache){$templateCache.put("...","...");...})`
-- `isStandalone === true` will create `angular.module("myTemplates",[]).run(function($templateCache){$templateCache.put("...","...");...})`
+- `isStandalone === false` will create `angular.module("myTemplates")`
+- `isStandalone === true` will create `angular.module("myTemplates",[])`
 
 **Defaults**: `false`
 
@@ -90,8 +90,8 @@ In example, if modulename is `myTemplates`:
 ## isNgAnnotate (boolean, optional)
 When `true`, `$templateCache` variable will be annotated, otherwise it won't be:
 
-- `isNgAnnotate === false` will create `angular.module("myTemplates").run(function($templateCache){$templateCache.put("...","...");...})`
-- `isNgAnnotate === true` will create `angular.module("myTemplates").run(["$templateCache",function($templateCache){$templateCache.put("...","...");...}])`
+- `isNgAnnotate === false` will create `angular.module("myTemplates").run(function($templateCache){ ... })`
+- `isNgAnnotate === true` will create `angular.module("myTemplates").run(["$templateCache",function($templateCache){ ... }])`
 
 **Defaults**: `false`
 
@@ -138,6 +138,8 @@ function contentModifier(content, filePath, callback) {
 ```
 
 It allows to return an string with same/new content, a `Promise` that resolves to the same/new content or rejects (will fail whole process) or it can be resolved with `callback(err, newContent)` (if `err` is specified it will fail the whole process). If an error is thrown it will fail the whole process. 
+
+**Defaults**: `function (content) { return content; }`
 
 # License: MIT
 
