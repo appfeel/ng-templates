@@ -99,6 +99,8 @@ When `true`, `$templateCache` variable will be annotated, otherwise it won't be:
 ## isCreateOutput (boolean, optional)
 When true, the output file will be created. If `templatesFilePath` is specified then the file will be created in the specified value, otherwise in the default location (`path.resolve(path.join(angularRoot, 'templates.js'));`).
 
+**Defaults**: `false`
+
 
 ## templatesFilePath (string, optional)
 The path to the templates file (in case a file will be generated). If the path does not exist, this module will create the needed subdirectories. If the file already exists, it will be replaced. This script is the one that should be included in your `index.html`.
@@ -140,6 +142,7 @@ function contentModifier(content, filePath, callback) {
 It allows to return an string with same/new content, a `Promise` that resolves to the same/new content or rejects (will fail whole process) or it can be resolved with `callback(err, newContent)` (if `err` is specified it will fail the whole process). If an error is thrown it will fail the whole process. 
 
 **Defaults**: `function (content) { return content; }`
+
 
 # License: MIT
 
