@@ -1,41 +1,41 @@
 {
-    "name": "templatecache",
-    "version": "1.0.5",
-    "description": "angular templates to $templateCache",
-    "main": "index.js",
-    "scripts": {
-        "prepublish": "npm test",
-        "test": "node_modules/.bin/istanbul cover node_modules/.bin/_mocha test/test.js"
-    },
-    "keywords": [
-        "angular",
-        "templates",
-        "angularjs",
-        "templateCache"
-    ],
-    "author": "Miquel Martín <miquel.martin@appfeel.com>",
-    "license": "MIT",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/appfeel/templatecache.git"
-    },
-    "bugs": {
-        "url": "https://github.com/appfeel/templatecache/issues"
-    },
-    "homepage": "https://github.com/appfeel/templatecache#readme",
-    "dependencies": {
-        "glob": "^7.1.1",
-        "html-minifier": "^3.1.0",
-        "mkdirp": "^0.5.1",
-        "q": "^1.4.1"
-    },
-    "devDependencies": {
-        "babel-eslint": "^6.1.2",
-        "chai": "^3.5.0",
-        "eslint": "^3.7.1",
-        "eslint-config-es5": "^0.5.0",
-        "istanbul": "^0.4.5",
-        "mocha": "^3.1.2",
-        "mocha-eslint": "^3.0.1"
-    }
+  "name": "templatecache",
+  "version": "1.0.6",
+  "description": "angular templates to $templateCache",
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "npm test",
+    "test": "node_modules/.bin/istanbul cover node_modules/.bin/_mocha test/test.js"
+  },
+  "keywords": [
+    "angular",
+    "templates",
+    "angularjs",
+    "templateCache"
+  ],
+  "author": "Miquel Martín <miquel.martin@appfeel.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/appfeel/templatecache.git"
+  },
+  "bugs": {
+    "url": "https://github.com/appfeel/templatecache/issues"
+  },
+  "homepage": "https://github.com/appfeel/templatecache#readme",
+  "dependencies": {
+    "glob": "^7.1.1",
+    "html-minifier": "^3.1.0",
+    "mkdirp": "^0.5.1",
+    "q": "^1.4.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^6.1.2",
+    "chai": "^3.5.0",
+    "eslint": "^3.7.1",
+    "eslint-config-es5": "^0.5.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.1.2",
+    "mocha-eslint": "^3.0.1"
+  }
 }
